@@ -52,3 +52,8 @@ linegraph <- ggplot(granted, aes(x=grantyear, y=count)) +
   geom_line(aes(color=ee_country)) +
   scale_color_brewer(palette="Set2")
 linegraph
+
+# More things to do
+# Average wait time to get a patent granted
+# Who owns the most patents in the US
+# Waffle plot - popular types of patents %
