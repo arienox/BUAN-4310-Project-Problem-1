@@ -89,6 +89,7 @@ waitBar<-ggplot(data=top5wait, aes(x=reorder(ee_country, -mean_wait_time), y=mea
        y = "Years") +
   geom_text(aes(label=mean_wait_time), position=position_dodge(width=0.9), vjust=-0.25)
 waitBar
+# While the US has far more patents than other countries, their wait time for approval is not short in comparison to the other Top 5 countries. 
 
 
 ## Top 5 States with the Most Patents
